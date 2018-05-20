@@ -19,7 +19,7 @@ header, footer, div.page {
 }
 
 header h1 {
-    color: #169bbd;
+    //color: #169bbd;
     margin: 0;
     font-weight: normal;
     font-size: 42px;
@@ -40,4 +40,6 @@ header nav ul li {
 
 div.page {
     background: #f1fbfe;
+    border-radius: 25px;
+    border: 15px solid;
 }
