@@ -8,15 +8,15 @@
     <nav>
       <ul class="nav navbar-nav">
         <li{% if this._path == '/' %} class="active"{% endif
-          %}><a href="{{ '/'|url }}">Willkommen</a></li>
+          %}><a href="{{ '/'|url }}"><img src="willkommen.png" alt="Willkommen"></a></li>
         {% for href, title in [
-          ['/blog', 'Blog'],
-          ['/guestbook', 'Gästebuch'],
-          ['/about', 'Über uns']
+          ['/blog', 'blog.png'],
+          ['/about', 'about.png']
         ] %}
           <li{% if this.is_child_of(href) %} class="active"{% endif
-            %}><a href="{{ href|url }}">{{ title }}</a></li>
+            %}><a href="{{ href|url }}"><img src="{{ title }}"></a></li>
         {% endfor %}
+        <li>&nbsp<a href="https://lug-wiz.zulipchat.com/login/"><img src="zulip.png" alt="Teamchat"></a></li>
       </ul>
     </nav>
   </header>

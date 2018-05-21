@@ -15,12 +15,12 @@ header, footer, div.page {
     width: 760px;
     margin: 0 auto;
     #background: #daeef3;
-    padding: 20px 30px;
+    padding: 10px 30px;
 }
 
 header h1 {
     text-align: center;
-    margin: 0;
+    margin: 1;
     font-weight: normal;
     font-size: 42px;
 }
