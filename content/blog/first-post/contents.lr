@@ -1,12 +1,15 @@
-title: Nächstes Treffen Dienstag 22. Mai 19 Uhr
+title: Treffen Dienstag 22. Mai 19 Uhr
 ---
 pub_date: 2018-05-18
 ---
-author: Marco Heins
+author: Marco
 ---
 body:
 
 ###Themen
-- Ausprobieren von [![alt text](lektor.jpg "Lektor CMS")][1], womit wir unsere Website / unseren Blog gemeinsam gestalten könnten
+- Ausprobieren von [![alt text](lektor.jpg "Lektor CMS")][1], womit wir unsere Website / unseren Blog gemeinsam gestalten können
+
+####Rückblick
+Rückblickend haben wir beim letzten Treffen mit einer Teilnehmerin aus einzelnen Fotos einen Film erstellt (im Terminal mittels convert) und ihr das Tool OpenShot zum Vertonen des Films installiert. Einer Macnutzerin haben wir zudem ein frisches OS X aufgesetzt.
 
 [1]: https://www.getlektor.com/
